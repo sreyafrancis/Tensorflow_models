@@ -1,6 +1,6 @@
 #########################################################################################
 # Requirements: Tensorflow framework,Numpy package
-# Description: This .py file has the Alexnet implementation in tensorflow.
+# Description: This .py file has the Alexnet implementation in tensorflow 
 #              Alexnet is a convolutional neural network model with multiple layers of convolution,
 #              relu activation, pool and local response normalization followed by fully connected layers.
 ##########################################################################################
@@ -43,7 +43,7 @@ def conv(x, filter_height, filter_width, num_filters, stride_y, stride_x, name,
     This function gets data, filter height, filter width, number of filters, convolution parameters and performs convolution operation
 
 	Arguments:
-		-input data
+	-input data
         -filter height
         -filter width 
         -number of filters
@@ -53,7 +53,7 @@ def conv(x, filter_height, filter_width, num_filters, stride_y, stride_x, name,
         -group: split into the specified number of groups
 	
     Return:
-		-Convolution layer with Sigmoid activation 
+	-Convolution layer with Sigmoid activation 
 '''    
     # Get number of input channels
     input_channels = int(x.get_shape()[-1])
