@@ -1,5 +1,5 @@
 #########################################################################################
-# Requirements: Tensorflow framework,Numpy package
+# Requirements: Tensorflow framework, Numpy package
 # Description: This .py file has the convolutional autoencoder that applies convolution and innerproduct to encode the
 #              input to lower dimension and then applies the deconvolution operation to reproduce the original input.
 #              Hence it learns to encode the input in a set of simple signals and then try to reconstruct 
