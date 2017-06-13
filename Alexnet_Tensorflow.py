@@ -27,7 +27,7 @@ dropout_rate = 0.5
 num_classes = 10
 
 
-
+#placeholders
 
 x = tf.placeholder(tf.float32, [None, 784])
 y = tf.placeholder(tf.float32, [None, num_classes])
