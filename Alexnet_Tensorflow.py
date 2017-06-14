@@ -130,7 +130,7 @@ def max_pool(x, filter_height, filter_width, stride_y, stride_x,
     This function gets data, filter height, filter width, pooling parameters and performs max pooling operation
 
 	Arguments:
-		-input data
+	-input data
         -filter height
         -filter width 
         -stride dimensions
@@ -138,7 +138,7 @@ def max_pool(x, filter_height, filter_width, stride_y, stride_x,
         -padding: Type of padding algorithm to be used(SAME/VALID)
 	
     Return:
-		-Max pool layer 
+	-Max pool layer 
 '''       
     return tf.nn.max_pool(x, ksize=[1, filter_height, filter_width, 1],
                         strides = [1, stride_y, stride_x, 1],
@@ -261,7 +261,6 @@ correct_pred = tf.equal(tf.argmax(score, 1), tf.argmax(y, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
 
 # Initializing the variables
-#init = tf.global_variables_initializer()
 init=tf.global_variables_initializer()
 
 
