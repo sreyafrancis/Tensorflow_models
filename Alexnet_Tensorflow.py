@@ -149,7 +149,7 @@ def lrn(x, radius, alpha, beta, name, bias=1.0):
     This function gets data, radius, normalization parameters and performs lrn operation
 
 	Arguments:
-		-input data
+	-input data
         -depth_radius
         -alpha 
         -beta
@@ -157,7 +157,7 @@ def lrn(x, radius, alpha, beta, name, bias=1.0):
         -bias 
 	
     Return:
-		-Normalized layer 
+	-Normalized layer 
 '''    
     return tf.nn.local_response_normalization(x)# depth_radius = radius,
                                             #alpha = alpha, beta = beta,
@@ -168,10 +168,10 @@ def dropout(x, keep_prob):
     This function gets data, keep_prob value and performs dropout
 
 	Arguments:
-		-input data
+	-input data
         -keep_prob:the probability that each element is kept
     Return:
-		-Dropout layer 
+	-Dropout layer 
 '''     
     return tf.nn.dropout(x, keep_prob)
 
