@@ -1,10 +1,10 @@
 #########################################################################################
-# Requirements: Tensorflow framework,Numpy package
+# Requirements:Tensorflow framework,Numpy package
 # Description: This .py file has the autoencoder that uses the encoder function to encode the
 #              input to lower dimension and then use the decoder function to reproduce the original input.
 #              Hence it learns to encode the input in a set of simple signals and then try to reconstruct 
 #              the input from them.
-# Dependencies: Windows/Ubuntu 14.04/Ubuntu 16.04, python 2.7 & python 3.5
+# Dependencies:Windows/Ubuntu 14.04/Ubuntu 16.04, python 2.7 & python 3.5
 ##########################################################################################
 
 from __future__ import division, print_function, absolute_import
