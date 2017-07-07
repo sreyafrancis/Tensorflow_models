@@ -2,7 +2,7 @@
 # Requirements: Tensorflow framework,Numpy package
 # Description: This .py file has the RNN_LSTM implementation in tensorflow.
 #              A LSTM network is an artificial neural network that contains LSTM units 
-#              instead of, or in addition to, other network units. A LSTM unit is a recurrent 
+#              instead of, or in addition to, other network units. A LSTM unit is a recurrent neural
 #              network unit that excels at remembering values for either long or short durations of time.
 ##########################################################################################
 
