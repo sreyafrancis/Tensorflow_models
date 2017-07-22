@@ -1,6 +1,6 @@
 #########################################################################################
 # Requirements: Tensorflow Framework,Numpy Package
-# Description: This .py file has the Alexnet implementation in tensorflow.
+# Description: This .py file has Alexnet implementation in tensorflow.
 #              This is a convolutional neural network model with multiple layers of convolution,
 #              relu activation, pool and local response normalization followed by fully connected layers.
 ##########################################################################################
