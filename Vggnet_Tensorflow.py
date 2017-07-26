@@ -1,8 +1,8 @@
 #########################################################################################
 # Requirements: Tensorflow framework,Numpy package
-# Description: This .py file has the Vggnet implementation in tensorflow.
+# Description: This .py file has the Vgg-net implementation in tensorflow.
 #              VGG is a convolutional neural network model with multiple layers of convolution,
-#              relu activation and pool followed by fully connected layers.
+#              relu activation and pooling layer followed by fully connected layers.
 ##########################################################################################
 
 
