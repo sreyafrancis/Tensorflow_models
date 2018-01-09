@@ -3,7 +3,7 @@
 # Requirements: Tensorflow framework,Numpy package
 # Description: This .py file has the convolutional autoencoder that applies convolution operation to encode the
 #              input to lower dimension and then applies the deconvolution operation to reproduce the original input.
-#              Hence it learns to encode the input in a set of simple signals and then try to reconstruct 
+#              Hence the autoencoder learns to encode the input in a set of simple signals and then try to reconstruct 
 #              the input from them.
 ##########################################################################################
 
@@ -103,7 +103,7 @@ def autoencoder(input_shape=[None, 784],
         current_input = output
 
     # %%
-    # now have the reconstruction through the network
+    # Do the reconstruction through the network
     y = current_input
     # cost function measures pixel-wise difference
     cost = tf.reduce_sum(tf.square(y - x_tensor))
